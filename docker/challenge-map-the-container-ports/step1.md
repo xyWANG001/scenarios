@@ -16,6 +16,8 @@ Here is an example of what you should be able to accomplish at the end of this s
 2. Run the `docker run` command to run a new container named `my-nginx`
 
 
+![challenge-map-the-container-ports-1](assets\challenge-map-the-container-ports-1.png)
+
 ### Requirements
 
 - Docker must be installed on your machine.
