@@ -19,7 +19,7 @@
                     }
                 ],
                 "skills": [
-                    "docker run"
+                    "docker port"
                 ],
                 "solutions": [
                     "step1-solution.md"
