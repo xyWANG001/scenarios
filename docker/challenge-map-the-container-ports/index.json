@@ -19,7 +19,7 @@
                     }
                 ],
                 "skills": [
-                    "docker port"
+                    "docker/run"
                 ],
                 "solutions": [
                     "step1-solution.md"
@@ -38,7 +38,7 @@
                     }
                 ],
                 "skills": [
-                    "docker port"
+                    "docker/port"
                 ],
                 "solutions": [
                     "step2-solution.md"
@@ -57,7 +57,7 @@
                     }
                 ],
                 "skills": [
-                    "docker run"
+                    "docker/run"
                 ],
                 "solutions": [
                     "step3-solution.md"
@@ -76,7 +76,7 @@
                     }
                 ],
                 "skills": [
-                    "docker run"
+                    "docker/run"
                 ],
                 "solutions": [
                     "step4-solution.md"
@@ -103,7 +103,7 @@
                 ],
                 
                 "skills": [
-                    "docker run"
+                    "docker/run"
                 ],
                 "solutions": [
                     "step5-solution.md"
