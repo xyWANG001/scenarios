@@ -6,8 +6,8 @@ import os
 import unittest
 from duplicate_file_finder import find_duplicate_files, delete_files
 
-class TestDuplicateFileFinder(unittest.TestCase):
 
+class TestDuplicateFileFinder(unittest.TestCase):
     def setUp(self):
         self.test_dir = "test_directory"
         os.makedirs(self.test_dir)
@@ -18,10 +18,10 @@ class TestDuplicateFileFinder(unittest.TestCase):
 
         with open(self.file_1, "w") as f:
             f.write("This is a test file.")
-        
+
         with open(self.file_2, "w") as f:
             f.write("This is a test file.")
-        
+
         with open(self.file_3, "w") as f:
             f.write("This is another test file.")
 
@@ -42,6 +42,6 @@ class TestDuplicateFileFinder(unittest.TestCase):
         self.assertFalse(os.path.exists(self.file_1))
         self.assertFalse(os.path.exists(self.file_2))
 
+
 if __name__ == "__main__":
     unittest.main()
-

@@ -6,8 +6,8 @@ import os
 import unittest
 from file_search_engine import search_files_with_keyword
 
-class TestFileSearchEngine(unittest.TestCase):
 
+class TestFileSearchEngine(unittest.TestCase):
     def setUp(self):
         self.test_dir = "test_directory"
         os.makedirs(self.test_dir)
@@ -18,10 +18,10 @@ class TestFileSearchEngine(unittest.TestCase):
 
         with open(self.file_1, "w") as f:
             f.write("This is a test file with the keyword Apple.")
-        
+
         with open(self.file_2, "w") as f:
             f.write("This is another test file without any keyword.")
-        
+
         with open(self.file_3, "w") as f:
             f.write("This file also contains the keyword apple.")
 
@@ -36,6 +36,7 @@ class TestFileSearchEngine(unittest.TestCase):
         matching_files = search_files_with_keyword(self.test_dir, keyword)
         expected_files = [self.file_1, self.file_3]
         self.assertEqual(set(matching_files), set(expected_files))
+
 
 if __name__ == "__main__":
     unittest.main()

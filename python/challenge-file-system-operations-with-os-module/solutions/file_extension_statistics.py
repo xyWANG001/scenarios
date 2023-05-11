@@ -2,6 +2,7 @@ import os
 from collections import Counter
 from typing import Dict
 
+
 def generate_file_extension_statistics(path: str) -> Dict[str, int]:
     """Generates file extension statistics for the given directory.
 
@@ -19,6 +20,7 @@ def generate_file_extension_statistics(path: str) -> Dict[str, int]:
             extension_counter[extension.lower()] += 1
 
     return dict(extension_counter)
+
 
 if __name__ == "__main__":
     directory_to_scan = "test_example/file_extension_statistics_example"

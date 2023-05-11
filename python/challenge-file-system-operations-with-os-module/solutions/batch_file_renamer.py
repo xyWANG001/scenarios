@@ -2,6 +2,7 @@ import os
 from typing import Tuple
 from typing import List
 
+
 def batch_rename_files(path: str, old_ext: str, new_ext: str) -> Tuple[int, List[str]]:
     """Renames all files with the specified extension in the given directory to have a new extension.
 
@@ -27,12 +28,15 @@ def batch_rename_files(path: str, old_ext: str, new_ext: str) -> Tuple[int, List
 
     return renamed_count, new_file_paths
 
+
 if __name__ == "__main__":
     directory_to_rename = "test_example/batch_file_renamer_example"
     old_extension = ".txt"
     new_extension = ".pdf"
 
-    renamed_count, new_file_paths = batch_rename_files(directory_to_rename, old_extension, new_extension)
+    renamed_count, new_file_paths = batch_rename_files(
+        directory_to_rename, old_extension, new_extension
+    )
 
     print(f"Renamed {renamed_count} files:")
     for file_path in new_file_paths:

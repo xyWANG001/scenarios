@@ -6,8 +6,8 @@ import os
 import unittest
 from file_extension_statistics import generate_file_extension_statistics
 
-class TestFileExtensionStatistics(unittest.TestCase):
 
+class TestFileExtensionStatistics(unittest.TestCase):
     def setUp(self):
         self.test_dir = "test_directory"
         os.makedirs(self.test_dir)
@@ -18,10 +18,10 @@ class TestFileExtensionStatistics(unittest.TestCase):
 
         with open(self.file_1, "w") as f:
             f.write("This is a test file.")
-        
+
         with open(self.file_2, "w") as f:
             f.write("This is another test file.")
-        
+
         with open(self.file_3, "w") as f:
             f.write("This is a PDF file.")
 
@@ -33,8 +33,9 @@ class TestFileExtensionStatistics(unittest.TestCase):
 
     def test_generate_file_extension_statistics(self):
         extension_statistics = generate_file_extension_statistics(self.test_dir)
-        expected_statistics = {'.txt': 2, '.pdf': 1}
+        expected_statistics = {".txt": 2, ".pdf": 1}
         self.assertEqual(extension_statistics, expected_statistics)
+
 
 if __name__ == "__main__":
     unittest.main()

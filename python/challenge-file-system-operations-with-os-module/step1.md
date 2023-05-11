@@ -9,15 +9,16 @@ In this sub-challenge, you will create a disk space analyzer that scans a specif
 
 ## Example Usage
 
-There are files in the path `test_example/disk_space_analyzer_example`: 
-- `1.txt` 100MB, 
-- `2.txt` 200MB, 
+There are files in the path `test_example/disk_space_analyzer_example`:
+
+- `1.txt` 100MB,
+- `2.txt` 200MB,
 - `3.txt` 300MB.
 
 When you have finished the experiment, run the script to obtain the following results:
 
 ```python
-python disk_space_analyzer.py 
+python disk_space_analyzer.py
 ```
 
 Output:

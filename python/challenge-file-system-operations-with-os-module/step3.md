@@ -9,7 +9,8 @@ In this sub-challenge, you will create a file extension statistics generator tha
 
 ## Example Usage
 
-The path `test_example/file_extension_statistics_example` contains the following files: 
+The path `test_example/file_extension_statistics_example` contains the following files:
+
 - `1.txt`,
 - `2.pdf`.
 

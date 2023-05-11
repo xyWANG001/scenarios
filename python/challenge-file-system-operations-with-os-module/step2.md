@@ -4,8 +4,7 @@ In this sub-challenge, you will create a duplicate file finder that scans a spec
 
 ## TODO:
 
-1.Complete the `find_duplicate_files` and `delete_files` functions in `/home/labex/project/find_duplicate_finder.py` and implement a duplicate file finder using the `os` module.
-2. Scans for duplicate files in a specified directory, compares them based on content, and removes the duplicates (leaving the original files intact).
+1.Complete the `find_duplicate_files` and `delete_files` functions in `/home/labex/project/find_duplicate_finder.py` and implement a duplicate file finder using the `os` module. 2. Scans for duplicate files in a specified directory, compares them based on content, and removes the duplicates (leaving the original files intact).
 
 ## Example Usage
 

@@ -1,6 +1,7 @@
 import os
 from typing import List
 
+
 def search_files_with_keyword(path: str, keyword: str) -> List[str]:
     """Searches files containing the given keyword in the specified directory and its subdirectories.
 
@@ -22,6 +23,7 @@ def search_files_with_keyword(path: str, keyword: str) -> List[str]:
                     matching_files.append(file_path)
 
     return matching_files
+
 
 if __name__ == "__main__":
     directory_to_search = "test_example/file_search_engine_example"

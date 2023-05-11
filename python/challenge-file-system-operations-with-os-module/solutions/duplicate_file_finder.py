@@ -2,6 +2,7 @@ import os
 from collections import defaultdict
 from typing import Dict, List
 
+
 def find_duplicate_files(path: str) -> Dict[str, List[str]]:
     """Finds duplicate files in the given directory based on content.
 
@@ -17,10 +18,14 @@ def find_duplicate_files(path: str) -> Dict[str, List[str]]:
         for filename in filenames:
             file_path = os.path.join(dirpath, filename)
             with open(file_path, "rb") as f:
-                    file_content = f.read()
+                file_content = f.read()
             file_map[file_content].append(file_path)
 
-    return {file_content: paths for file_content, paths in file_map.items() if len(paths) > 1}
+    return {
+        file_content: paths
+        for file_content, paths in file_map.items()
+        if len(paths) > 1
+    }
 
 
 def delete_files(file_paths: List[str]):
@@ -32,6 +37,7 @@ def delete_files(file_paths: List[str]):
     for path in file_paths:
         if os.path.exists(path):
             os.remove(path)
+
 
 if __name__ == "__main__":
     directory_to_search = "test_example/find_duplicate_finder_example"
