@@ -1,1 +1,1 @@
-netstat -tunlp | grep 8080
+cat ~/.zsh_history | grep docker | grep port | grep my-nginx3
