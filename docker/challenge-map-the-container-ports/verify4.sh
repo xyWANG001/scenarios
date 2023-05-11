@@ -1,1 +1,1 @@
-sudo docker ps
+netstat -tunlp | grep 8080

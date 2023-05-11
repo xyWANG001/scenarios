@@ -14,6 +14,7 @@ Here is an example of what you should be able to accomplish at the end of this s
 
 1. Open a terminal or command prompt.
 2. List the public-facing ports of the `my-nginx` container.
+
 ![challenge-map-the-container-ports-2](assets\challenge-map-the-container-ports-2.png)
 
 ### Requirements

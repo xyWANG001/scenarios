@@ -15,7 +15,7 @@
                         "file": "verify1.sh",
                         "hint": "Please Start a Container named my-nginx.",
                         "timeout": 10,
-                        "showstderr": true
+                        "showstderr": false
                     }
                 ],
                 "skills": [

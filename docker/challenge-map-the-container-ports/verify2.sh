@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-docker inspect my-nginx
+cat ~/.zsh_history | grep docker | grep port | grep my-nginx
