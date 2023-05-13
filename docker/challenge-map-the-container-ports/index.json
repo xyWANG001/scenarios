@@ -88,15 +88,8 @@
                 "verify": [
                     {
                         "name": "Verify that port 8080 is mapped to port 80",
-                        "file": "verify5-1.sh",
-                        "hint": "Please Map port 8080 to port 80",
-                        "timeout": 0,
-                        "showstderr": false
-                    },
-                    {
-                        "name": "Verify that port 8443 is mapped to port 443",
-                        "file": "verify5-2.sh",
-                        "hint": "Please port 8443 to port 443",
+                        "file": "verify5.sh",
+                        "hint": "Please Map port 8080 to port 80 and port 8443 to port 443",
                         "timeout": 0,
                         "showstderr": false
                     }
