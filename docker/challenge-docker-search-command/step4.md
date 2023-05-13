@@ -16,4 +16,3 @@ Here is an example of what you should be able to accomplish at the end of this s
 2. Search for the `alpine` image on the Docker Hub registry and display the name, description and number of stars in a table showing the top `5` data of the search results.
 
 ![show-max-number](assets/challenge-docker-search-command-4-1.png)
-

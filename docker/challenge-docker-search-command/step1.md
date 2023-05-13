@@ -6,7 +6,7 @@ In this step, you will use the `docker search` command to search for an image on
 
 ## Target
 
-- Search for `nginx` image on the Docker Hub registry. 
+- Search for `nginx` image on the Docker Hub registry.
 
 ## Example
 
@@ -16,4 +16,3 @@ Here is an example of what you should be able to accomplish at the end of this s
 2. Search for the `alpine` image on the Docker Hub registry.
 
 ![search-alpine-image](assets/challenge-docker-search-command-1-1.png)
-

@@ -21,7 +21,6 @@ Here is an example of what you should be able to accomplish at the end of this s
 
 You can use the following to make the results display the name, description and number of stars in a table format.
 
-``` zsh
+```zsh
 table {{.Name}}\t{{.Description}}\t{{.StarCount}}
 ```
-

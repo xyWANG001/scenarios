@@ -16,4 +16,3 @@ Here is an example of what you should be able to accomplish at the end of this s
 2. Search the `alpine` image on the Docker Hub registry, but only return official images
 
 ![filtering-search-results](assets/challenge-docker-search-command-2-1.png)
-
