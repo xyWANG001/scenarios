@@ -1,6 +1,7 @@
 import re
 from typing import List
 
+
 def extract_urls(html: str) -> List[str]:
     """
     Extract all the unique URLs from the given HTML string.
@@ -11,8 +12,9 @@ def extract_urls(html: str) -> List[str]:
     # TODO: Write your code here
     # Note: Do not change the existing code
 
-if __name__ == '__main__':
-    sample_html = '''
+
+if __name__ == "__main__":
+    sample_html = """
                 <html>
                 <head>
                 <title>Example</title>
@@ -26,6 +28,6 @@ if __name__ == '__main__':
                 </ul>
                 </body>
                 </html>
-                   '''
+                   """
 
     print(extract_urls(sample_html))

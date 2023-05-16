@@ -1,10 +1,11 @@
 import unittest
 import sys
+
 sys.path.append("/home/labex/project")
 from password_validator import is_password_valid
 
-class TestPasswordValidator(unittest.TestCase):
 
+class TestPasswordValidator(unittest.TestCase):
     def test_valid_password(self):
         password = "A1$bcdefghijk"
         self.assertTrue(is_password_valid(password))
@@ -33,5 +34,6 @@ class TestPasswordValidator(unittest.TestCase):
         password = "A1$bcdefpassword"
         self.assertTrue(is_password_valid(password))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

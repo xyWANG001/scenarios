@@ -1,6 +1,7 @@
 import re
 from typing import List
 
+
 def extract_urls(html: str) -> List[str]:
     """
     Extract all the unique URLs from the given HTML string.
@@ -8,15 +9,18 @@ def extract_urls(html: str) -> List[str]:
     :param html: The input HTML string.
     :return: A list of unique URLs found in the HTML string.
     """
-    url_pattern = re.compile(r'(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'".,<>?«»“”‘’]))')
+    url_pattern = re.compile(
+        r'(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'".,<>?«»“”‘’]))'
+    )
 
     urls = [url_match.group(0) for url_match in url_pattern.finditer(html)]
     unique_urls = list(set(urls))
 
     return unique_urls
 
-if __name__ == '__main__':
-    sample_html = '''
+
+if __name__ == "__main__":
+    sample_html = """
                 <html>
                 <head>
                 <title>Example</title>
@@ -30,6 +34,6 @@ if __name__ == '__main__':
                 </ul>
                 </body>
                 </html>
-                   '''
+                   """
 
     print(extract_urls(sample_html))

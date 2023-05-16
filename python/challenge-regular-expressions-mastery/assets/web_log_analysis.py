@@ -2,6 +2,7 @@ import re
 from collections import Counter
 from typing import Dict, List
 
+
 def parse_log_file(file_path: str) -> List[str]:
     """
     Read a log file and return a list of log entries as strings.
@@ -11,6 +12,7 @@ def parse_log_file(file_path: str) -> List[str]:
     """
     # TODO: Write your code here
     # Note: Do not change the existing code
+
 
 def analyze_log_entries(log_entries: List[str]) -> Dict[str, Dict]:
     """
@@ -22,8 +24,9 @@ def analyze_log_entries(log_entries: List[str]) -> Dict[str, Dict]:
     # TODO: Write your code here
     # Note: Do not change the existing code
 
-if __name__ == '__main__':
-    step1 = parse_log_file('sample_log.txt')
-    print(f'{step1=}')
+
+if __name__ == "__main__":
+    step1 = parse_log_file("sample_log.txt")
+    print(f"{step1=}")
     step2 = analyze_log_entries(step1)
-    print(f'{step2=}')
+    print(f"{step2=}")

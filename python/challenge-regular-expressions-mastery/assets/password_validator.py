@@ -1,6 +1,7 @@
 import re
 from typing import List
 
+
 def is_password_valid(password: str) -> bool:
     """
     Check if the given password is valid according to the defined criteria.
@@ -11,7 +12,8 @@ def is_password_valid(password: str) -> bool:
     # TODO: Write your code here
     # Note: Do not change the existing code
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     password_1 = "MyPassword123!"
     password_2 = "mypassword"
 

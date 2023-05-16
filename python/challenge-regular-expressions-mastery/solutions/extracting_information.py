@@ -1,6 +1,7 @@
 import re
 from typing import Dict
 
+
 def parse_config_file(config_contents: str) -> Dict[str, Dict[str, str]]:
     """
     Parse a configuration file and return the extracted key-value pairs as a dictionary.
@@ -11,8 +12,8 @@ def parse_config_file(config_contents: str) -> Dict[str, Dict[str, str]]:
     config = {}
     current_section = None
 
-    section_pattern = re.compile(r'\[(.+)\]')
-    key_value_pattern = re.compile(r'([^=]+)=(.+)')
+    section_pattern = re.compile(r"\[(.+)\]")
+    key_value_pattern = re.compile(r"([^=]+)=(.+)")
 
     for line in config_contents.splitlines():
         section_match = section_pattern.match(line.strip())
@@ -28,8 +29,9 @@ def parse_config_file(config_contents: str) -> Dict[str, Dict[str, str]]:
 
     return config
 
-if __name__ == '__main__':
-    sample_config = '''
+
+if __name__ == "__main__":
+    sample_config = """
     [Application]
     name = MyApplication
     version = 2.0.1
@@ -40,5 +42,5 @@ if __name__ == '__main__':
     username = dbadmin
     password = mysecretpassword
     database = mydatabase
-                    '''
+                    """
     print(parse_config_file(sample_config))
