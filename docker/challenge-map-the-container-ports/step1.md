@@ -1,4 +1,4 @@
-## Step 1: Start a Container
+## Start a Container
 
 ### Introduction
 
@@ -15,9 +15,6 @@ Here is an example of what you should be able to accomplish at the end of this s
 1. Open a terminal or command prompt.
 2. Run the `docker run` command to run a new container named `my-nginx`
 
-![challenge-map-the-container-ports-1](assets\challenge-map-the-container-ports-1.png)
+![challenge-map-the-container-ports-1](assets/challenge-map-the-container-ports-1.png)
 
-### Requirements
-
-- Docker must be installed on your machine.
 

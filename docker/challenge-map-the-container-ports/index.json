@@ -38,7 +38,7 @@
                     }
                 ],
                 "skills": [
-                    "docker/port"
+                    "docker/inspect"
                 ],
                 "solutions": [
                     "step2-solution.md"

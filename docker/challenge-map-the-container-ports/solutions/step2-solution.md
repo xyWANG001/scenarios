@@ -1,3 +1,3 @@
 # Solution
 
-- Input `docker port my-nginx` command to Open a terminal or command prompt.
+- Input `docker inspect my-nginx | grep -C3 ExposedPort` command to Open a terminal or command prompt.
