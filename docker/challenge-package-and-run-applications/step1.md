@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this step, you will learn how to install and run a Docker image. A Docker image is a lightweight, stand-alone, and executable package that includes everything needed to run an application, including the code, a runtime, libraries, environment variables, and config files. 
+In this step, you will learn how to install and run a Docker image. A Docker image is a lightweight, stand-alone, and executable package that includes everything needed to run an application, including the code, a runtime, libraries, environment variables, and config files.
 
 ## Target
 
