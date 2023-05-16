@@ -1,14 +1,14 @@
-## Map a Port to a Random Port
+# Map a Port to a Random Port
 
-### Introduction
+## Introduction
 
 In this step, you will learn how to map a port to a random port using the `docker run` command.
 
-### Target
+## Target
 
 Map port `8080` to a random port for the `my-nginx3` container.
 
-### Result Example
+## Result Example
 
 Here is an example of what you should be able to accomplish at the end of this step:
 

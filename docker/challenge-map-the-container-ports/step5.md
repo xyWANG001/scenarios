@@ -1,14 +1,14 @@
-## Map Multiple Ports
+# Map Multiple Ports
 
-### Introduction
+## Introduction
 
 In this step, you will learn how to map multiple ports using the `docker run` command.
 
-### Target
+## Target
 
 Map port `8080` to port `80` and port `8443` to port `443` for the `my-nginx4` container.
 
-### Result Example
+## Result Example
 
 Here is an example of what you should be able to accomplish at the end of this step:
 

@@ -1,14 +1,14 @@
-## Start a Container
+# Start a Container
 
-### Introduction
+## Introduction
 
 In this step, you will learn how to start a container using the `docker run` command.
 
-### Target
+## Target
 
 Start a new container from the `nginx` image.
 
-### Result Example
+## Result Example
 
 Here is an example of what you should be able to accomplish at the end of this step:
 
