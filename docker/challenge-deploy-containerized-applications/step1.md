@@ -1,8 +1,8 @@
-# Containerize a "Hello, World!" Application 
+# Containerize a "Hello, World!" Application
 
 ## Introduction
 
-In this step, you will containerize a simple "Hello, World!" application using Docker. 
+In this step, you will containerize a simple "Hello, World!" application using Docker.
 
 ## Target
 
