@@ -1,6 +1,6 @@
 # Docker Network Host
 
-In the host mode, the Docker container shares the network interface with the host machine. This means that the container can access host resources and communicates with other containers directly, without being isolated from the host machine. 
+In the host mode, the Docker container shares the network interface with the host machine. This means that the container can access host resources and communicates with other containers directly, without being isolated from the host machine.
 
 1. Launch two containers using the network host:
 

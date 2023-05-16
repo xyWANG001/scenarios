@@ -1,6 +1,6 @@
 # Docker Network None
 
-In the none mode, the Docker container runs without any network interface. As a result, it cannot communicate with other containers on the same Docker network or the host machine. 
+In the none mode, the Docker container runs without any network interface. As a result, it cannot communicate with other containers on the same Docker network or the host machine.
 
 1. Launch a container without any network interface:
 

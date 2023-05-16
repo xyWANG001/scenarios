@@ -1,6 +1,6 @@
 # Docker Network Bridge
 
-Bridge mode is the default networking mode for the Docker containers. In a bridge network, the Docker container is isolated from the host machine and other Docker containers. However, it can communicate with other containers on the same Docker network. 
+Bridge mode is the default networking mode for the Docker containers. In a bridge network, the Docker container is isolated from the host machine and other Docker containers. However, it can communicate with other containers on the same Docker network.
 
 1. Create a Docker network called my-bridge-network:
 
